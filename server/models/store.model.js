@@ -15,7 +15,7 @@ const StoreSchema = new mongoose.Schema({
     storeNumber: {
         type: Number,
         required: [true, "Store number is required."],
-        min: [6, "Store number must be greater than 0."]
+        min: [1, "Store number must be greater than 0."]
     },
     open: {
         type: Boolean
